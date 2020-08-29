@@ -1,2 +1,7 @@
 # GoVeg
-Proyecto final para el ramo "CS50: Introduction to Computer Science", UAI (1er Semestre, 2016, Semestre 1 de Ing. Civil Informática) &lt;&lt;>> Final proyecto for the course "CS50: Introduction to Computer Science", UAI (1st Semester, 2016, Semester 1 of Civil Computer Engineering)
+Creamos un sitio web y una aplicación que muestra diferentes tipos de recetas VEGANAS según el tipo de comida que quieran buscar (desayuno, almuerzo, cena, bocadillos, bebidas, etc). La data de las recetas se obtenía desde una base de datos que guardaba to lo que es el titulo, los ingredientes, los pasos y las imagenes.
+
+<<>>
+
+We made a website and an app that shows different kinds of VEGAN recipes depending on which type of meal they want to search (breakfast, lunch, dinner, snacks, drinks, etc). The data of the recipes was obtained from a database that kept all the information like the title, the ingredients, the steps and the images.
+
