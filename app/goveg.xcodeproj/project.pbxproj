@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F01479F21D00D33100A7E72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01479F11D00D33100A7E72C /* AppDelegate.swift */; };
+		F01479F41D00D33100A7E72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01479F31D00D33100A7E72C /* ViewController.swift */; };
+		F01479F71D00D33100A7E72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01479F51D00D33100A7E72C /* Main.storyboard */; };
+		F01479F91D00D33100A7E72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01479F81D00D33100A7E72C /* Assets.xcassets */; };
+		F01479FC1D00D33100A7E72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01479FA1D00D33100A7E72C /* LaunchScreen.storyboard */; };
+		F0147A071D00D33100A7E72C /* govegTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0147A061D00D33100A7E72C /* govegTests.swift */; };
+		F0147A121D00D33100A7E72C /* govegUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0147A111D00D33100A7E72C /* govegUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0147A031D00D33100A7E72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01479E61D00D33100A7E72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01479ED1D00D33100A7E72C;
+			remoteInfo = goveg;
+		};
+		F0147A0E1D00D33100A7E72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01479E61D00D33100A7E72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01479ED1D00D33100A7E72C;
+			remoteInfo = goveg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F01479EE1D00D33100A7E72C /* goveg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goveg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01479F11D00D33100A7E72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F01479F31D00D33100A7E72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F01479F61D00D33100A7E72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F01479F81D00D33100A7E72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F01479FB1D00D33100A7E72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F01479FD1D00D33100A7E72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0147A021D00D33100A7E72C /* govegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = govegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0147A061D00D33100A7E72C /* govegTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = govegTests.swift; sourceTree = "<group>"; };
+		F0147A081D00D33100A7E72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0147A0D1D00D33100A7E72C /* govegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = govegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0147A111D00D33100A7E72C /* govegUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = govegUITests.swift; sourceTree = "<group>"; };
+		F0147A131D00D33100A7E72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01479EB1D00D33100A7E72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01479FF1D00D33100A7E72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0147A0A1D00D33100A7E72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F01479E51D00D33100A7E72C = {
+			isa = PBXGroup;
+			children = (
+				F01479F01D00D33100A7E72C /* goveg */,
+				F0147A051D00D33100A7E72C /* govegTests */,
+				F0147A101D00D33100A7E72C /* govegUITests */,
+				F01479EF1D00D33100A7E72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F01479EF1D00D33100A7E72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01479EE1D00D33100A7E72C /* goveg.app */,
+				F0147A021D00D33100A7E72C /* govegTests.xctest */,
+				F0147A0D1D00D33100A7E72C /* govegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01479F01D00D33100A7E72C /* goveg */ = {
+			isa = PBXGroup;
+			children = (
+				F01479F11D00D33100A7E72C /* AppDelegate.swift */,
+				F01479F31D00D33100A7E72C /* ViewController.swift */,
+				F01479F51D00D33100A7E72C /* Main.storyboard */,
+				F01479F81D00D33100A7E72C /* Assets.xcassets */,
+				F01479FA1D00D33100A7E72C /* LaunchScreen.storyboard */,
+				F01479FD1D00D33100A7E72C /* Info.plist */,
+			);
+			path = goveg;
+			sourceTree = "<group>";
+		};
+		F0147A051D00D33100A7E72C /* govegTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0147A061D00D33100A7E72C /* govegTests.swift */,
+				F0147A081D00D33100A7E72C /* Info.plist */,
+			);
+			path = govegTests;
+			sourceTree = "<group>";
+		};
+		F0147A101D00D33100A7E72C /* govegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0147A111D00D33100A7E72C /* govegUITests.swift */,
+				F0147A131D00D33100A7E72C /* Info.plist */,
+			);
+			path = govegUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01479ED1D00D33100A7E72C /* goveg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0147A161D00D33100A7E72C /* Build configuration list for PBXNativeTarget "goveg" */;
+			buildPhases = (
+				F01479EA1D00D33100A7E72C /* Sources */,
+				F01479EB1D00D33100A7E72C /* Frameworks */,
+				F01479EC1D00D33100A7E72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goveg;
+			productName = goveg;
+			productReference = F01479EE1D00D33100A7E72C /* goveg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0147A011D00D33100A7E72C /* govegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0147A191D00D33100A7E72C /* Build configuration list for PBXNativeTarget "govegTests" */;
+			buildPhases = (
+				F01479FE1D00D33100A7E72C /* Sources */,
+				F01479FF1D00D33100A7E72C /* Frameworks */,
+				F0147A001D00D33100A7E72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0147A041D00D33100A7E72C /* PBXTargetDependency */,
+			);
+			name = govegTests;
+			productName = govegTests;
+			productReference = F0147A021D00D33100A7E72C /* govegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0147A0C1D00D33100A7E72C /* govegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0147A1C1D00D33100A7E72C /* Build configuration list for PBXNativeTarget "govegUITests" */;
+			buildPhases = (
+				F0147A091D00D33100A7E72C /* Sources */,
+				F0147A0A1D00D33100A7E72C /* Frameworks */,
+				F0147A0B1D00D33100A7E72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0147A0F1D00D33100A7E72C /* PBXTargetDependency */,
+			);
+			name = govegUITests;
+			productName = govegUITests;
+			productReference = F0147A0D1D00D33100A7E72C /* govegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01479E61D00D33100A7E72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = paulam;
+				TargetAttributes = {
+					F01479ED1D00D33100A7E72C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F0147A011D00D33100A7E72C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F01479ED1D00D33100A7E72C;
+					};
+					F0147A0C1D00D33100A7E72C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F01479ED1D00D33100A7E72C;
+					};
+				};
+			};
+			buildConfigurationList = F01479E91D00D33100A7E72C /* Build configuration list for PBXProject "goveg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01479E51D00D33100A7E72C;
+			productRefGroup = F01479EF1D00D33100A7E72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01479ED1D00D33100A7E72C /* goveg */,
+				F0147A011D00D33100A7E72C /* govegTests */,
+				F0147A0C1D00D33100A7E72C /* govegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01479EC1D00D33100A7E72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01479FC1D00D33100A7E72C /* LaunchScreen.storyboard in Resources */,
+				F01479F91D00D33100A7E72C /* Assets.xcassets in Resources */,
+				F01479F71D00D33100A7E72C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0147A001D00D33100A7E72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0147A0B1D00D33100A7E72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01479EA1D00D33100A7E72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01479F41D00D33100A7E72C /* ViewController.swift in Sources */,
+				F01479F21D00D33100A7E72C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01479FE1D00D33100A7E72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0147A071D00D33100A7E72C /* govegTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0147A091D00D33100A7E72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0147A121D00D33100A7E72C /* govegUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0147A041D00D33100A7E72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01479ED1D00D33100A7E72C /* goveg */;
+			targetProxy = F0147A031D00D33100A7E72C /* PBXContainerItemProxy */;
+		};
+		F0147A0F1D00D33100A7E72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01479ED1D00D33100A7E72C /* goveg */;
+			targetProxy = F0147A0E1D00D33100A7E72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F01479F51D00D33100A7E72C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01479F61D00D33100A7E72C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F01479FA1D00D33100A7E72C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01479FB1D00D33100A7E72C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0147A141D00D33100A7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0147A151D00D33100A7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0147A171D00D33100A7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = goveg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = popi.goveg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0147A181D00D33100A7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = goveg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = popi.goveg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0147A1A1D00D33100A7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = govegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = popi.govegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goveg.app/goveg";
+			};
+			name = Debug;
+		};
+		F0147A1B1D00D33100A7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = govegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = popi.govegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goveg.app/goveg";
+			};
+			name = Release;
+		};
+		F0147A1D1D00D33100A7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = govegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = popi.govegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = goveg;
+			};
+			name = Debug;
+		};
+		F0147A1E1D00D33100A7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = govegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = popi.govegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = goveg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01479E91D00D33100A7E72C /* Build configuration list for PBXProject "goveg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0147A141D00D33100A7E72C /* Debug */,
+				F0147A151D00D33100A7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0147A161D00D33100A7E72C /* Build configuration list for PBXNativeTarget "goveg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0147A171D00D33100A7E72C /* Debug */,
+				F0147A181D00D33100A7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0147A191D00D33100A7E72C /* Build configuration list for PBXNativeTarget "govegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0147A1A1D00D33100A7E72C /* Debug */,
+				F0147A1B1D00D33100A7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0147A1C1D00D33100A7E72C /* Build configuration list for PBXNativeTarget "govegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0147A1D1D00D33100A7E72C /* Debug */,
+				F0147A1E1D00D33100A7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01479E61D00D33100A7E72C /* Project object */;
+}
