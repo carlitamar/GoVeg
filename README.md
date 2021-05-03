@@ -1,4 +1,4 @@
-# GoVeg
+# GoVeg (2016)
 
 Aplicamos nuestros conocimientos de HTML, PHP, iOS, Swift y MySQL para generar una página web y aplicación que mostraba recetas VEGANAS para diferentes tipos de comidas (desayuno, almuerzo, snacks, etc). La data de las recetas se obtenía desde una base de datos que guardaba to lo que es el titulo, los ingredientes, los pasos y las imagenes. Para esto se llamaba a una base de datos que retornaba las recetas en pantalla. 
 
